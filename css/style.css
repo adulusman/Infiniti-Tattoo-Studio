@@ -1535,12 +1535,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
-}
+  background-image: url(../img/banner/banner2.jpg);
+} 
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner.png);
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
@@ -1553,7 +1553,7 @@ h3 {
 .slider_area .single_slider {
   height: 900px;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center center;
 }
 
@@ -1704,7 +1704,7 @@ h3 {
   color: #FFF;
   margin-bottom: 34px;
   margin-top: 10px;
-  font-family: "Old English Text MT",
+  font-family: "Old English Text MT", 'UnifrakturMaguntia',
     serif;
 }
 
@@ -2118,7 +2118,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam_1.png);
+  background-image: url(../img/banner/banner.png);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
