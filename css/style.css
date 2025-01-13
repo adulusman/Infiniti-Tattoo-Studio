@@ -1652,14 +1652,18 @@ h3 {
   }
 }
 
-
+@font-face {
+  font-family: 'Old English Text MT';
+  src: url('https://infinitytattoolaserclinic.com/fonts/OldEnglishTextMT.woff2') format('woff2'),
+    url('https://infinitytattoolaserclinic.com/fonts/OldEnglishTextMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Old English Text MT",
-    serif;
+  font-family: "Old English Text MT", 'UnifrakturMaguntia', serif;
   font-size: 120px;
-  /* text-transform: uppercase; */
   font-weight: 400;
   color: #fff;
   line-height: 1;
@@ -1701,7 +1705,7 @@ h3 {
   margin-bottom: 34px;
   margin-top: 10px;
   font-family: "Old English Text MT",
-      serif;
+    serif;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
