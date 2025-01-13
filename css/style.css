@@ -1,5 +1,8 @@
+/* <link rel="preload" href="fonts/OldEnglishTextMT.woff2" as="font" type="font/woff2" crossorigin="anonymous"> */
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
+@import url("fonts/OldEnglishTextMT.woff2");
+
 /* @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap"); */
 /* @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap'); */
 
@@ -1653,18 +1656,16 @@ h3 {
   }
 }
 
-@font-face {
-  font-family: "Old English Text MT";
-  src: url("fonts/OldEnglishTextMT.woff2") format("woff2"),
-    url("fonts/OldEnglishTextMT.woff") format("woff"),
-    url("fonts/OldEnglishTextMT.ttf") format("truetype");
+/* @font-face {
+  font-family: 'Old English Text MT';
+  src: url('fonts/OldEnglishTextMT.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Old English Text MT", serif;
+  font-family: 'Old English Text MT', serif;
   /* Old English style */
 
   font-size: 120px;
@@ -1714,7 +1715,7 @@ h3 {
   color: #FFF;
   margin-bottom: 34px;
   margin-top: 10px;
-  font-family: "Old English Text MT", serif;
+  font-family: "Old English Text MT";
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
