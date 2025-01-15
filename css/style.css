@@ -2228,18 +2228,30 @@ h3 {
   }
 }
 
+@font-face {
+  font-family: 'Old English Text MT';
+  src: url('https://infinitytattoolaserclinic.com/fonts/OldEnglishTextMT.woff2') format('woff2'),
+    url('https://infinitytattoolaserclinic.com/fonts/OldEnglishTextMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* line 62, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_area .single_bradcam .bradcam_text span {
   font-size: 40px;
   font-weight: 400;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-family: "Anton", sans-serif;
+  font-family: "Old English Text MT",
+    'UnifrakturMaguntia',
+    serif;
 }
 
 /* line 69, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_area .single_bradcam .bradcam_text h3 {
-  font-family: "Anton", sans-serif;
+  font-family: "Old English Text MT",
+    'UnifrakturMaguntia',
+    serif;
   font-size: 80px;
   text-transform: capitalize;
   font-weight: 400;
@@ -2939,26 +2951,26 @@ h3 {
     }
   }
 
- 
+
   @media (max-width: 768px) {
     flex-direction: column;
-    max-width: 100%; 
+    max-width: 100%;
 
     .image-container {
       height: 200px;
     }
 
     .arrow {
-      font-size: 18px; 
+      font-size: 18px;
       width: 30px;
       height: 30px;
 
       &.left-arrow {
-        left: 10px; 
+        left: 10px;
       }
 
       &.right-arrow {
-        right: 10px; 
+        right: 10px;
       }
     }
   }
@@ -2966,11 +2978,11 @@ h3 {
 
   @media (max-width: 480px) {
     .image-container {
-      height: 200px; 
+      height: 200px;
     }
 
     .arrow {
-      font-size: 16px; 
+      font-size: 16px;
       width: 25px;
       height: 25px;
     }
