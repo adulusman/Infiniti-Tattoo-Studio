@@ -2977,9 +2977,7 @@ h3 {
 
 
   @media (max-width: 480px) {
-    .image-container {
-      height: 200px;
-    }
+
 
     .arrow {
       font-size: 16px;
