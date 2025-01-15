@@ -2849,6 +2849,33 @@ h3 {
   height: 100% !important;
 }
 
+.contact-button {
+  text-align: center; 
+  margin: 20px 0; 
+
+  .btn {
+    display: inline-block;
+    padding: 12px 50px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d32525; 
+    border: none;
+  
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+      background-color: #1aa850; 
+      transform: scale(1.05); 
+    }
+
+    &:active {
+      background-color:red; 
+  }
+}}
+
 /*=================== contact form end ====================*/
 /* Contact Success and error Area css
 ============================================================================================ */
