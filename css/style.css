@@ -1598,8 +1598,8 @@ h3 {
 
   /* line 26, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text .shape_2 {
-    width: 100px;
-    height: 100px;
+    width: 20%;
+ 
   }
 }
 
@@ -1607,7 +1607,7 @@ h3 {
 
   /* line 35, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text .shape_2 img {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -1632,7 +1632,7 @@ h3 {
 
   /* line 50, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text .shape_1 img {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -1675,7 +1675,7 @@ h3 {
 
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     margin: 20px 0;
   }
@@ -1720,7 +1720,7 @@ h3 {
 
   /* line 86, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
