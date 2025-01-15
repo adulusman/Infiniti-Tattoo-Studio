@@ -1536,7 +1536,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner2.jpg);
-} 
+}
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
@@ -1599,7 +1599,7 @@ h3 {
   /* line 26, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text .shape_2 {
     width: 20%;
- 
+
   }
 }
 
@@ -2850,8 +2850,8 @@ h3 {
 }
 
 .contact-button {
-  text-align: center; 
-  margin: 20px 0; 
+  text-align: center;
+  margin: 20px 0;
 
   .btn {
     display: inline-block;
@@ -2860,21 +2860,22 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: #ffffff;
-    background-color: #d32525; 
+    background-color: #d32525;
     border: none;
-  
+
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 
     &:hover {
-      background-color: #1aa850; 
-      transform: scale(1.05); 
+      background-color: #1aa850;
+      transform: scale(1.05);
     }
 
     &:active {
-      background-color:red; 
+      background-color: red;
+    }
   }
-}}
+}
 
 
 /*=================== contact form end ====================*/
@@ -2887,12 +2888,12 @@ h3 {
   position: relative;
   max-width: 600px;
   margin: 0 auto;
-  
- 
+
+
 
   .image-container {
 
-background: #000;
+    background: #000;
     width: 100%;
     /* max-width: 500px; */
     height: 450px;
@@ -2942,7 +2943,66 @@ background: #000;
       transform: translateY(-50%) scale(0.9);
     }
   }
+
+  @media (max-width: 767px) {
+
+
+    .image-container {
+
+      background: #000;
+      width: 70%;
+      /* max-width: 500px; */
+      height: 300px;
+
+      overflow: hidden;
+      border-radius: 10px;
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: opacity 0.5s ease;
+      }
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      background: rgba(181, 98, 98, 0.5);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &.left-arrow {
+        left: -50px;
+      }
+
+      &.right-arrow {
+        right: -50px;
+      }
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      &:active {
+        transform: translateY(-50%) scale(0.9);
+      }
+    }
+
+  }
 }
+
 
 
 
